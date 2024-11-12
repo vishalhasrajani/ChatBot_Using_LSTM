@@ -8,8 +8,8 @@ from PIL import Image
 import time
 
 # Load the trained model and tokenizer
-model = tf.keras.models.load_model('my_model.keras')
-tokenizer = joblib.load('tokenizer.pkl')
+model = tf.keras.models.load_model('artifacts/my_model.keras')
+tokenizer = joblib.load('artifacts/tokenizer.pkl')
 
 # Define a function to convert a sentence to tokens
 def str_to_tokens(sentence, maxlen=22):
