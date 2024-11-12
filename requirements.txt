@@ -1,0 +1,9 @@
+numpy
+tensorflow
+pyyaml
+pandas
+tables
+keras
+streamlit
+joblib
+Pillow
